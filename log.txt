@@ -1,0 +1,32 @@
+KNN PARAMS
+dict_keys(['algorithm', 'leaf_size', 'metric', 'metric_params', 'n_jobs', 'n_neighbors', 'p', 'weights'])
+{'metric': 'cosine', 'n_neighbors': 11}
+Best Hyper Accuracy: 0.7827715355805244
+BinTree PARAMS
+dict_keys(['ccp_alpha', 'class_weight', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'random_state', 'splitter'])
+{'criterion': 'entropy', 'min_impurity_decrease': 0.0, 'min_samples_split': 4, 'splitter': 'random'}
+Best Hyper Accuracy: 0.7827715355805244
+{'eta': 1, 'max_depth': 2, 'n_estimators': 5, 'objective': 'binary:logistic', 'subsample': 0.5, 'verbosity': 0}
+Best Hyper Accuracy: 0.8576779026217228
+KSVM PARAMS
+dict_keys(['C', 'break_ties', 'cache_size', 'class_weight', 'coef0', 'decision_function_shape', 'degree', 'gamma', 'kernel', 'max_iter', 'probability', 'random_state', 'shrinking', 'tol', 'verbose'])
+{'C': 0.75, 'gamma': 'auto', 'kernel': 'poly'}
+Best Hyper Accuracy: 0.8089887640449438
+--------------------
+DecisionTreeClassifier(criterion='entropy', min_samples_split=4,
+                       splitter='random')
+0.8159800249687889
+--------------------
+--------------------
+XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None,
+              enable_categorical=False, eta=1, gamma=None, gpu_id=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=2,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=5, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, reg_alpha=None,
+              reg_lambda=None, scale_pos_weight=None, subsample=0.5,
+              tree_method=None, validate_parameters=None, verbosity=0)
+0.8271785268414481
+--------------------
